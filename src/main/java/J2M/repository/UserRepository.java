@@ -1,0 +1,13 @@
+package J2M.repository;
+
+import J2M.model.UserModel;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<UserModel, Long> {
+
+    //@Query("SELECT * FROM user WHERE id = ?")
+    //public UserModel get();
+
+}
