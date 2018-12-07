@@ -16,6 +16,9 @@ public class SkillModel {
     private Long id;
     private Boolean completed;
     @Lob
+    private String learningOutcomes;
+    @Lob
     private String data;
+
 
 }

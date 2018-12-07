@@ -370,6 +370,10 @@ MIT
 
 @angular/material/icon
 
+@angular/material/core
+
+@angular/material/select
+
 @angular/material/toolbar
 
 zone.js
