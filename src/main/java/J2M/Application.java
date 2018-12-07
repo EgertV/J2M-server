@@ -10,12 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @SpringBootApplication
 public class Application {
 
-    @RequestMapping("/")
-    @ResponseBody
-    public String foo() {
-        return "Hello world!";
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
